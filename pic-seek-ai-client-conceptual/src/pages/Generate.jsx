@@ -22,8 +22,8 @@ const Generate = () => {
       });
   };
   return (
-    <div className="w-11/12 mx-auto">
-      <h2 className="text-center text-2xl font-bold">Generate an Image</h2>
+    <div className="w-11/12 mx-auto mt-28">
+      <h2 className="text-center text-2xl font-bold text-pink-700">Generate an Image</h2>
       <form
         onSubmit={handleSubmit}
         className="w-full flex justify-center items-center pt-10"
